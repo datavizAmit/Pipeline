@@ -1,19 +1,8 @@
-<<<<<<< HEAD
 name: Greeting
-on: push
+'on': push
 jobs:
-    greet:
-        runs-on: ubuntu-latest
-        steps:
-            name: "Greet User"
-            run:  echo "Hello World"
-=======
-name: Greeting
-on: push
-jobs:
-    greet:
-        runs-on: ubuntu-latest
-        steps:
-            name: "Greet User"
-            run: echo "Hello World"
->>>>>>> cea80dfab174e79d1caa322d15923129d6601c16
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      name: Greet User
+      run: echo "Hello World"
